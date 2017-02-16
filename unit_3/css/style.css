@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	background-image: url("images/grandcanyon.jpg");
+	font: Georgia;
+	background-attachment: fixed;
+
+}
+
+#list{
+	list-style-position: inside;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+h1{
+	color: #3B317F;
+}
+
+a{
+	color: #3B317F;
+}
