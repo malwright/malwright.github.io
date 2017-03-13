@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Pacifico|Raleway');
+body {
+	text-align: center;
+	background-image: url("images/grandcanyon.jpg");
+	font: Georgia;
+	background-attachment: fixed;
+}
+
+
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 45px;
+	line-height: 0px;
+}
+
+hr {
+	line-height: 0px;
+}
+
+h2 {
+	font-family: 'Domine', serif;
+}
+
+a {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	padding: 0 50px;
+}
+
+header {
+	padding: 20px;
+}
+
+nav {
+	border-bottom: 1px black solid;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px
+}
+
+#left {
+	float: left;
+	width: 65%;
+}
+
+#right {
+	float: right;
+	width: 30%;
+}
+
+article {
+	padding: 10px 20px 20px 20px;
+	height: 450px
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+}
+
+div {
+	padding: 20px;
+}
+
+footer {
+	border: 1px black solid;
+	padding: 10px;
+	margin: 20px 0 0 0;
+	clear: both;
+}
