@@ -7,6 +7,7 @@ body {
 
 #wrapper {
 	width: 100%;
+	padding: 1.5em;
 }
 
 h1 {
@@ -21,6 +22,7 @@ hr {
 
 h2 {
 	font-family: 'Domine', serif;
+	font-size: 2em;
 }
 
 a {
@@ -57,13 +59,52 @@ article {
 	font-size: 2em;
 }
 
-div {
-	padding: 1.5em;
-}
-
 footer {
 	border: .08em black solid;
 	padding: .6em;
 	margin: 1.5em 0 0 0;
 	clear: both;
+}
+
+@media only screen and (max-width: 1085px) {
+	#right{
+		float: none;
+		width: 100%;
+	}
+	article{
+		height: 10em;
+		padding: .6em .5em .5em;
+	}
+	#slogan{ 
+		font-size: 1.5em;
+	}
+	#image1 img{
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width: 870px) {
+	nav, #slogan{
+		font-size: 1.2em
+	}
+	article{ 
+		padding: 0em;
+	}
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 499px) {
+	nav{
+		font-size: 1em;
+		padding: 0em 0em .5em 0em;
+	}
+	#slogan{
+		font-size: 1em;
+	}
+	
 }
